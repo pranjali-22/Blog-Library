@@ -1,0 +1,13 @@
+{
+  "blogs": [
+    {
+      "name": "Europe",
+      "category": "TRAVEL"
+    },
+    {
+      "name": "Gym",
+      "category": "FITNESS"
+    }
+  ],
+  "name": "My Blog Library"
+}
