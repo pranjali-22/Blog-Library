@@ -42,7 +42,6 @@ into travel, fitness,lifestyle and business
 - As a user, I want to be able to be able to load my blog from file.
 - As a user, I want to be able to print blogs in my collection.
 
-### Instructions for Grader
 - You can generate four buttons by opening the frame - Load Library, Add Blog, Remove Blog, and Print Blogs.
 - You can generate the first required action related to adding Xs to a Y by clicking on Add Blog button. By clicking on 
 Add Blog button a new window shows up which takes the category of blog, blog name and blog content. The window has an Ad
@@ -59,9 +58,6 @@ window.
 - You can reload the state of my application by clicking the Load Library button. After clicking this window a message
 pops up which says that the library has been loaded. 
 
-
-### Phase 4: Task 2
-
 Blog: Travel added to  library
 
 Blog: Gym added to  library
@@ -70,19 +66,6 @@ Blog: Health added to  library
 
 Blog: Gym removed from library
 
-### Phase 4: Task 3
-
-The iterator and observer design patterns can be applied to the project for refactoring.
-#### Iterator Pattern - 
-The iterator design pattern can be applied to the BlogLibrary class. 
-The BlogLibrary class can implement iterator interface and which would result in refactoring of 
-the for loops present in the BlogApp Class and BlogLibrary class.The methods openblog(), categoriseblog() 
-and removeblog() have the for loops and can be refactored by using the iterator pattern. 
-#### Observer Design Pattern - 
-The observer design pattern can be applied to Blog and Blog Library. 
-The Blog Library can be the observable and the Blog can be the observer. The operations like addBlog and 
-removeBlog can be added to the subject. This pattern can also be used to notify the users when a new blog is 
-added to the library. 
 
 
 
